@@ -1,6 +1,7 @@
-package com.khattab.islandcampsitereservation.exception;
+package com.khattab.islandcampsitereservation.restcontrolleradvice;
 
 import com.khattab.islandcampsitereservation.errorresponse.ErrorResponse;
+import com.khattab.islandcampsitereservation.exception.ReservationConflictException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
